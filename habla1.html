@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB DEVELOPER PORTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            padding: 20px 100px;
+        }
+
+        nav h3 {
+            font-weight: 800;
+            font-size: 45px;
+            margin: 0;
+        }
+
+        .r {
+            color: chocolate;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            gap: 30px; 
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #474747;
+        }
+
+.btn-primary{
+    background-color: brown;
+    font-weight: bold;
+    font-size: medium;
+    color: aliceblue;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+        .banner-content {
+    max-width: 580px;
+    text-align: left;  }
+
+.banner {
+    display: flex;              /* side by side layout */
+    align-items: center;        /* vertical center */
+    justify-content: center;    /* horizontal center */
+    gap: 40px;                  /* space between content & image */
+    padding: 50px 100px;
+}
+
+.banner-img img {
+    width: 500px;      /* চাইলে বড়/ছোট করতে পারো */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    color: chocolate;
+    margin: 10px 0;
+}
+
+.banner-content h3 {
+    font-size: 24px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-des {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.boltu {
+    background-color: brown;
+    color: bisque;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.banner {
+  background-image: url('white and yollow.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 100px; /* ভেতরের content ঠিক রাখতে */
+}
+   .section-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+   }
+
+   .section-discription{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+   }
+   .secondary-bg{
+    background-color: rgb(105, 108, 110);
+   }
+   /* main section */
+   main{
+    max-width: 1140px;
+    margin: 0 auto;
+   }
+   /* about section */
+   .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+
+   }
+   .iteam-tittle{
+    font-weight: bold;
+   }
+   .about-iteam{
+    display: flex;
+    justify-content: space-around;
+   }
+   .iteam-dis{
+    text-align:center;
+   }
+   .text-center{
+    text-align: center;
+   }
+  /* skills style */
+  .skill-description{
+    display: flex;
+  }
+  .skill-container{
+    display: flex;
+     align-items: center;        /* vertical center */
+    justify-content: center;    /* horizontal center */
+    gap: 100px;                
+    padding: 50px 100px; 
+  }
+  .resume{
+    display: flex;
+    align-items: center;        /* vertical center */
+    justify-content: center; 
+  }
+  .CV{
+    text-align: center;
+    align-items: center;
+    background-color: crimson;
+    border-radius: 5px;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>NO<span class="r">B</span>IN</h3>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+  
+  <!-- Left side: Content -->
+  <div class="banner-content">
+    <h3>Hi, I am</h3>
+    <h1>NOBIN</h1>
+    <p class="banner-des">
+      🎓 Engineering Student <br>
+      ⚽ Football Lover & Cristiano Ronaldo Fan <br>
+      🔬 Passionate about Physics <br>
+      📘 Facebook Page: FootFlare TV <br>
+      📸 Instagram: shoriful hoque nobin <br>
+      💻 Exploring Programming & Machine Learning <br>
+      🌍 From Bangladesh
+    </p>
+    <button class="boltu">DOWNLOAD CV</button>
+    <button class="boltu">CONTACT</button>
+  </div>
+
+  <!-- Right side: Image -->
+  <div class="banner-img">
+    <img src="c:\Users\USER\AppData\Roaming\Telegram Desktop\8.24.jpg" alt="pls wait">
+  </div>
+
+</div>
+
+        
+    </header>
+    <main>
+<section class="about secondary-bg">
+    <h3 class="section-tittle">About Me</h3>
+   <p class="section-discription">A Web Developer is a professional who designs, builds, and maintains websites and web applications. They use programming languages like HTML, CSS, and JavaScript along with frameworks and libraries to create responsive, user-friendly, and visually appealing websites. Web developers work on both the front-end (user interface and design) and the back-end (server, database, and application logic) to ensure smooth functionality, performance, and security.</p>
+   <div class="about-iteam">
+    <p class="iteam-tittle">name</p>
+    <p class="iteam-dis">shori ful hoque nobin</p>
+    <p class="iteam-tittle">email</p>
+    <p class="iteam-dis">nobin1322000@gmail.com</p>
+    <p class="iteam-tittle">DOB</p>
+    <p class="iteam-dis">13/2/2000</p>
+    <p class="iteam-tittle">from</p>
+    <p class="iteam-dis">chittagong</p>
+   </div>
+</section>
+
+    </main>
+    <main>
+        <section class="about secoundary-bg">
+        </section>
+         <!-- it is all about section start  -->
+          <section class="skills">
+            <h3 class="section-tittle" class="text-center">what I do</h3>
+            <p class="section-discription" class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda blanditiis aspernatur voluptate et totam nobis sequi id cumque, doloribus ipsa hic natus. Sit, autem consectetur soluta cum deleniti dolorum.</p>
+          </section>
+          <div class="skill-container">
+            <div class="skill">
+                <img src="images.jpg" alt="">
+                <h4 class="skill-tittle">Vanila JavaScript</h4>
+                <p class="skill-description"></p>
+            </div>
+            <!-- <div class="skill">
+                <img src="reactlogo.jpg" alt="">
+                <h4 class="skill-tittle">React</h4>
+                <p class="skill-description"></p>
+            </div>  -->
+            <div class="skill">
+                <img src="nodejslogo.png" alt="">
+                <h4 class="skill-tittle">NodeJs</h4>
+                <p class="skill-description"></p>
+            </div>
+            <div class="skill">
+                <img src="mongodb.png" alt="">
+                <h4 class="skill-tittle">MongoDB</h4>
+                <p class="skill-description"></p>
+            </div>
+          </div>
+          <br>
+          <h3 class="section-tittle">A summary of My resume</h3>
+          <br>
+          <br>
+          <section class="resume">
+            
+            <div class="resume-container">
+                <div class="resume-column">
+                    <div class="resume-c-tittle">MY education</div>
+                    <div class="experience">
+                        <h4 class="experience-tittle">BSC in CSE</h4>
+                        <h5 class="experience-sub-tittle">Harvart university</h5>
+                        <div class="experience-description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, cupiditate magni! Recusandae beatae delectus odit optio illum expedita, consequatur omnis qui numquam tempore provident minima impedit laudantium ea rerum ratione!
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="experience">
+                        <h4 class="experience-tittle">BSC in CSE</h4>
+                        <h5 class="experience-sub-tittle">Harvart university</h5>
+                        <div class="experience-description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, cupiditate magni! Recusandae beatae delectus odit optio illum expedita, consequatur omnis qui numquam tempore provident minima impedit laudantium ea rerum ratione!
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="experience">
+                        <h4 class="experience-tittle">BSC in CSE</h4>
+                        <h5 class="experience-sub-tittle">Harvart university</h5>
+                        <div class="experience-description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, cupiditate magni! Recusandae beatae delectus odit optio illum expedita, consequatur omnis qui numquam tempore provident minima impedit laudantium ea rerum ratione!
+                        </div>
+                    </div >   
+                </div>
+                        </div> 
+                        <div class="resume-container">
+                <div class="resume-column">
+                    <div class="resume-c-tittle">MY experience</div>
+                    <div class="experience">
+                        <h4 class="experience-tittle">BSC in CSE</h4>
+                        <h5 class="experience-sub-tittle">Harvart university</h5>
+                        <div class="experience-description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, cupiditate magni! Recusandae beatae delectus odit optio illum expedita, consequatur omnis qui numquam tempore provident minima impedit laudantium ea rerum ratione!
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="experience">
+                        <h4 class="experience-tittle">BSC in CSE</h4>
+                        <h5 class="experience-sub-tittle">Harvart university</h5>
+                        <div class="experience-description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, cupiditate magni! Recusandae beatae delectus odit optio illum expedita, consequatur omnis qui numquam tempore provident minima impedit laudantium ea rerum ratione!
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="experience">
+                        <h4 class="experience-tittle">BSC in CSE</h4>
+                        <h5 class="experience-sub-tittle">Harvart university</h5>
+                        <div class="experience-description">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, cupiditate magni! Recusandae beatae delectus odit optio illum expedita, consequatur omnis qui numquam tempore provident minima impedit laudantium ea rerum ratione!
+                        </div>
+                    </div >   
+                </div>
+                        </div> 
+          </section>
+                                  <!-- cv DOWNLOAD -->
+                                   <section class="CV-section">
+                                    <button class="CV">CV DOWNLOAD</button>
+                                   </section>
+    </main>
+</body>
+</html>
